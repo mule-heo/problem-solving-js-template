@@ -22,7 +22,7 @@ const testResult = [];
 let passed = 0;
 for (let i = 0; i < answer.length; i++){
   if (answer[i] !== result[i]){
-    testResult.push(`× ${result[i]}`);
+    testResult.push(`× wrong: ${result[i]}. correct: ${answer[i]}.`);
   } else {
     testResult.push(`√ ${result[i]}`);
     passed++;
