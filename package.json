@@ -1,0 +1,13 @@
+{
+  "name": "problem-solving-js-template",
+  "version": "1.0.0",
+  "description": "local development environment for problem solving.",
+  "main": "code/script.js",
+  "scripts": {
+    "test": "node code/script.js < code/input.txt",
+    "debug": "node code/script.js < code/input.txt > code/debug.txt"
+  },
+  "keywords": [],
+  "author": "mule-heo",
+  "license": "ISC"
+}
