@@ -4,7 +4,8 @@
   "description": "local development environment for problem solving.",
   "main": "code/script.js",
   "scripts": {
-    "test": "node code/script.js < code/input.txt",
+    "start": "node code/script.js < code/input.txt",
+    "test": "node code/script.js < code/input.txt > code/debug.txt && node test/script.js < code/debug.txt",
     "debug": "node code/script.js < code/input.txt > code/debug.txt"
   },
   "keywords": [],
