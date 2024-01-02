@@ -5,7 +5,7 @@
   "main": "code/script.js",
   "scripts": {
     "start": "node code/script.js < code/input.txt",
-    "test": "node code/script.js < code/input.txt > code/debug.txt && node test/script.js < code/debug.txt",
+    "test": "npm run debug && node test/script.js < code/debug.txt",
     "debug": "node code/script.js < code/input.txt > code/debug.txt"
   },
   "keywords": [],
